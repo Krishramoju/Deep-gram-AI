@@ -1,21 +1,16 @@
-# Live Speech to Text with Deepgram
+# Simple Speech-to-Text
 
-A web application that transcribes speech to text in real-time using Deepgram's API.
+A browser-based speech recognition tool using the Web Speech API.
 
-## Features
+## How to Use
 
-- Real-time speech-to-text conversion
-- Simple start/stop recording interface
-- Clean, responsive design
+1. Open `index.html` in Chrome or Edge
+2. Click "Start Listening"
+3. Allow microphone access when prompted
+4. Speak - your words will appear in the text box
+5. Click "Stop Listening" when finished
 
-## Prerequisites
+## Browser Support
 
-- Deepgram API key (Get one at [https://deepgram.com](https://deepgram.com))
-- Modern web browser with microphone access
+Works best in Chrome and Edge. Firefox and Safari have limited support.
 
-## Setup
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/speech-to-text-deepgram.git
-   cd speech-to-text-deepgram
